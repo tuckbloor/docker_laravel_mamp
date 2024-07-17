@@ -1,5 +1,7 @@
 cd into the root directory
 
+added node_modules to .dockerignore as this fixes the tar archive issue when rebuilding the image
+
 the . is for src directory in this case already determined with copy command
 docker-compose run composer create-project laravel/laravel .
 
